@@ -1,0 +1,14 @@
+.env
+.env.local
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+ui/node_modules/
+ui/dist/
+ui/.vite/
+eval_results.json
+eval_output.log
+.claude/
+*.log
