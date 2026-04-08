@@ -4,11 +4,7 @@ An agent that plans outdoor trips by pulling live data from trusted hiking, weat
 
 ## Motivation
 
-I plan a lot of trips. Weekend hikes, national park visits, spontaneous detours when I'm already on the road. Every time I do, I run the same workflow by hand: check OpenStreetMap for trails, pull up a weather forecast, look at sunrise and sunset times so I know when I need to leave, and — if it's a national park — check the NPS site for alerts, closures, and campgrounds.
-
-When I've tried to do this with ChatGPT or other general-purpose assistants, the answer is always a little off. They hallucinate trail names, give weather that's not real, or pull from sources I don't recognize. The trip planning is only as trustworthy as the data behind it, and I want to know exactly where that data is coming from.
-
-This project is the workflow I already do, built as an agent. It only queries sources I chose and trust: OpenStreetMap via Overpass for trails, Open-Meteo for weather and daylight, and the NPS Developer API for national parks. The agent decides which of those to call based on the request, sequences the calls, reacts to what it finds, and writes a plan that reads like the one I'd write for myself.
+I plan a lot of outdoor trips and it is one of my greatest joys. This project is the workflow I already do, built as an agent. It only queries sources I chose and trust: OpenStreetMap via Overpass for trails, Open-Meteo for weather and daylight, and the NPS Developer API for national parks. The agent decides which of those to call based on the request, sequences the calls, reacts to what it finds, and writes a plan that reads like the one I'd write for myself.
 
 ## Quick start
 
